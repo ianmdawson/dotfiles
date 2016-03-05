@@ -33,3 +33,4 @@ cask 'vlc'
 ## not right now
 # cask 'adium'
 # cask 'steam'
+# cask 'iterm2'
