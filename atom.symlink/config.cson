@@ -1,7 +1,6 @@
 "*":
   core:
     disabledPackages: [
-      "background-tips"
       "exception-reporting"
       "metrics"
     ]
@@ -10,14 +9,6 @@
     ignoredNames: [
       ".bundle"
       ".git"
-      "log"
-      "repositories"
-      "tmp"
-      "vendor"
-    ]
-    themes: [
-      "unity-ui"
-      "glacier-syntax"
     ]
   editor:
     fontFamily: "Menlo"
