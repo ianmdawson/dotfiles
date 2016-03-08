@@ -1,24 +1,18 @@
 "*":
   core:
     disabledPackages: [
-      "exception-reporting"
-      "metrics"
-    ]
-    followSymlinks: false
-    hideGitIgnoredFiles: true
-    ignoredNames: [
-      ".bundle"
-      ".git"
+      "python-tools"
     ]
   editor:
-    fontFamily: "Menlo"
+    fontSize: 16
     invisibles: {}
+    tabLength: 4
     showIndentGuide: true
     softWrapAtPreferredLineLength: true
   "go-plus":
-    goPath: "/Users/holman/Code/go"
-  "release-notes":
-    viewedVersion: "0.89.0"
+    formatTool: "gofmt"
+    lintOnSave: false
+    goPath: "/users/idawson/code/go"
   "spell-check":
     grammars: [
       "text.plain"
