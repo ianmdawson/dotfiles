@@ -7,3 +7,4 @@ alias ddd='rm -rfd ~/Library/Developer/Xcode/DerivedData/*'
 alias gsu='git submodule update'
 alias bu="brew update && brew upgrade `brew outdated`"
 alias gog="go get"
+alias qr-code="shyp qr"
