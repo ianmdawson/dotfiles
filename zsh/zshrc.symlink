@@ -4,7 +4,10 @@ ZSH=$HOME/.oh-my-zsh
 export DOTFILES=$HOME/.dotfiles
 
 # your project folder that we can `c [tab]` to
-export PROJECTS=~/git
+export PROJECTS="~/git"
+
+# bin
+export PATH="$PATH:/Users/iandawson/bin"
 
 # Stash your environment variables in ~/.localrc. This means they'll stay out
 # of your main dotfiles repository (which may be public, like this one), but
