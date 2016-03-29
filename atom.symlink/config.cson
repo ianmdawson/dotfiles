@@ -1,18 +1,19 @@
 "*":
   core:
     disabledPackages: [
-      "python-tools"
+      "python-tools",
+      "exception-reporting"
     ]
   editor:
     fontSize: 16
     invisibles: {}
-    tabLength: 4
     showIndentGuide: true
     softWrapAtPreferredLineLength: true
+    tabLength: 4
   "go-plus":
     formatTool: "gofmt"
-    lintOnSave: false
     goPath: "/users/idawson/code/go"
+    lintOnSave: true
   "spell-check":
     grammars: [
       "text.plain"
