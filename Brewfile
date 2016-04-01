@@ -5,7 +5,7 @@ tap 'homebrew/bundle'
 
 brew 'ack'
 brew 'coreutils'
-brew 'go'
+brew 'go15'
 brew 'grc'
 brew 'hub'
 brew 'imagemagick'
