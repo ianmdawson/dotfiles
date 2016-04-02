@@ -31,7 +31,6 @@ brew 'wget'
 ## not right now
 # cask 'adium'
 # cask 'steam'
-
 # cask '1password'
 # cask 'firefox'
 # cask 'google-chrome'
