@@ -2,6 +2,10 @@ cask_args appdir: '/Applications'
 
 tap 'caskroom/cask'
 tap 'homebrew/bundle'
+tap 'homebrew/versions'
+
+cask 'atom'
+cask 'iterm2'
 
 brew 'ack'
 brew 'coreutils'
@@ -27,9 +31,7 @@ brew 'wget'
 ## not right now
 # cask 'adium'
 # cask 'steam'
-# cask 'iterm2'
 # cask '1password'
-# cask 'atom'
 # cask 'firefox'
 # cask 'google-chrome'
 # cask 'slack'
