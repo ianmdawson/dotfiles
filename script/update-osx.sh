@@ -5,14 +5,12 @@
 # command line interface to it that we can use to just install everything, so
 # yeah, let's do that.
 
-echo "› sudo softwareupdate -i -a"
-
 read -p "Check for OS X updates (y/n)? " answer
 case ${answer:0:1} in
     y|Y )
         sudo softwareupdate -i -a
     ;;
     * )
-        echo "Moving on"
+        echo "Did not check for updates"
     ;;
 esac
