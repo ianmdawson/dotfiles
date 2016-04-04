@@ -19,3 +19,6 @@ brew update
 # Install software
 echo "› $DOTFILES/script/install"
 $DOTFILES/script/install
+
+# Update OS X
+$DOTFILES/script/update-osx
