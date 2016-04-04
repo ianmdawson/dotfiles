@@ -4,4 +4,11 @@
 # yeah, let's do that.
 
 echo "› sudo softwareupdate -i -a"
-sudo softwareupdate -i -a
+while true; do
+    read -p "Do you wish to install this program? " yn
+    case $yn in
+        [Yy]* ) sudo softwareupdate -i -a; break;;
+        [Nn]* ) exit;;
+        * ) echo "Please answer y or n.";;
+    esac
+done
