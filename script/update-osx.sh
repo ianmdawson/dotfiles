@@ -5,7 +5,7 @@
 # command line interface to it that we can use to just install everything, so
 # yeah, let's do that.
 
-read -p "Check for OS X updates (y/n)? " answer
+read -t 10 -p "Check for OS X updates (y/n)? " answer
 case ${answer:0:1} in
     y|Y )
         sudo softwareupdate -i -a
