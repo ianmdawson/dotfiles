@@ -16,7 +16,7 @@
         ui = true
 [core]
         excludesfile = ~/.gitignore
-        editor = vim
+    	editor = sublime -n -w
 [apply]
         whitespace = nowarn
 [mergetool]
@@ -31,3 +31,6 @@
         #
         # Setting to git 2.0 default to suppress warning message
         default = simple
+[url "git@github.com:"]
+        # Always use ssh
+        insteadOf = "https://github.com/"

@@ -1,3 +1,13 @@
-.DS_Store
 *~
 *.swp
+.DS_Store
+.DS_Store?
+scratch
+.Trashes
+Icon?
+Thumbs.db
+*.egg-info
+.sass-cache
+*.pyc
+include
+.python-version
