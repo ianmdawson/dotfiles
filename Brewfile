@@ -6,6 +6,9 @@ tap 'homebrew/versions'
 
 cask 'atom'
 cask 'iterm2'
+cask 'slack'
+# xcode package manager
+cask 'alcatraz'
 
 brew 'ack'
 brew 'coreutils'
@@ -34,5 +37,4 @@ brew 'wget'
 # cask '1password'
 # cask 'firefox'
 # cask 'google-chrome'
-# cask 'slack'
 # cask 'vlc'
