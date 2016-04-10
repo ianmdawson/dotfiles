@@ -38,3 +38,4 @@ brew 'wget'
 # cask 'firefox'
 # cask 'google-chrome'
 # cask 'vlc'
+# cask spectacle # window management
