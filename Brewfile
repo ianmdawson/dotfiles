@@ -11,7 +11,7 @@ cask 'slack'
 cask 'alcatraz'
 cask 'jumpcut'
 # window management
-cask spectacle
+cask 'spectacle'
 
 brew 'ack'
 brew 'coreutils'
