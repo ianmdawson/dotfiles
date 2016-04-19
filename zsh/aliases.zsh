@@ -10,3 +10,5 @@ alias bu="brew update && brew upgrade `brew outdated`"
 alias gog="go get"
 alias qr-code="shyp qr"
 alias opn="open -a"
+alias ipadd="ifconfig | grep inet"
+

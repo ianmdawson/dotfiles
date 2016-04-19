@@ -9,6 +9,9 @@ cask 'iterm2'
 cask 'slack'
 # xcode package manager
 cask 'alcatraz'
+cask 'jumpcut'
+# window management
+cask 'spectacle'
 
 brew 'ack'
 brew 'coreutils'
@@ -38,4 +41,3 @@ brew 'wget'
 # cask 'firefox'
 # cask 'google-chrome'
 # cask 'vlc'
-# cask spectacle # window management

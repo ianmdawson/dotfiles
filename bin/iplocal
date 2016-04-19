@@ -1,0 +1,7 @@
+#!/bin/sh
+# Quick script to print local network ip addresses
+
+for i in `seq 0 10`;
+do
+    ipconfig getifaddr en$i
+done
