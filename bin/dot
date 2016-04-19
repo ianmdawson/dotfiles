@@ -20,5 +20,10 @@ brew update
 echo "› $DOTFILES/script/install"
 $DOTFILES/script/install
 
-# Update OS X
-$DOTFILES/script/update-osx.sh
+# I find updating osx this way annoying, flagging it
+if [ "$1" == '--update-osx' ]; then
+    # Update OS X
+    `$DOTFILES/script/update-osx.sh`
+else
+    echo "Not updating OS X, use --update-osx to do so"
+fi
