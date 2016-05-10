@@ -34,3 +34,7 @@
 [url "git@github.com:"]
         # Always use ssh
         insteadOf = "https://github.com/"
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	required = true
+	clean = git-lfs clean -- %f

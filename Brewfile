@@ -33,6 +33,7 @@ brew 'spaceman-diff'
 brew 'spark'
 brew 'unrar'
 brew 'wget'
+brew 'git-lfs'
 
 ## not right now
 # cask 'adium'
