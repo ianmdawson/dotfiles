@@ -5,7 +5,6 @@
       "exception-reporting"
     ]
   editor:
-    fontSize: 16
     invisibles: {}
     showIndentGuide: true
     softWrapAtPreferredLineLength: true
