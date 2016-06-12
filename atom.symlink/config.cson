@@ -8,11 +8,12 @@
     invisibles: {}
     showIndentGuide: true
     softWrapAtPreferredLineLength: true
-    tabLength: 4
   "go-plus":
     formatTool: "gofmt"
     goPath: "/users/idawson/code/go"
     lintOnSave: true
+  gofmt:
+    formatTool: "gofmt"
   "spell-check":
     grammars: [
       "text.plain"
