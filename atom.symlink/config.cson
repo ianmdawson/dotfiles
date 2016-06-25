@@ -1,7 +1,6 @@
 "*":
   core:
     disabledPackages: [
-      "python-tools"
       "exception-reporting"
     ]
   editor:
