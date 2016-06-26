@@ -34,6 +34,7 @@ brew 'spark'
 brew 'unrar'
 brew 'wget'
 brew 'git-lfs'
+brew 'terminal-notifier'
 
 ## not right now
 # cask 'adium'
