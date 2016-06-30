@@ -11,3 +11,5 @@ Thumbs.db
 *.pyc
 include
 .python-version
+venv
+

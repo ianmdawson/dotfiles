@@ -11,3 +11,5 @@ alias gog="go get"
 alias qr-code="shyp qr"
 alias opn="open -a"
 alias ipadd="ifconfig | grep inet"
+
+alias act="source venv/bin/activate"
