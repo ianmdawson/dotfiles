@@ -13,6 +13,7 @@ cask 'jumpcut'
 # window management
 cask 'spectacle'
 
+brew 'git'
 brew 'ack'
 brew 'coreutils'
 brew 'go15'
