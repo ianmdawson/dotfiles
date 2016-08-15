@@ -2,6 +2,7 @@
   core:
     disabledPackages: [
       "exception-reporting"
+      "fast-eslint"
     ]
   editor:
     invisibles: {}
