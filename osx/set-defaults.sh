@@ -51,8 +51,10 @@ defaults write com.apple.screensaver askForPasswordDelay -int 0
 
 # Finder: show all filename extensions
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
+# Finder: Disable File Extension Change Warning with defaults
+defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
 
-# Dark finder mode, may require restart?
+# Finder: Dark mode, may require restart?
 defaults write NSGlobalDomain AppleInterfaceStyle Dark
 
 # Enable AirDrop over Ethernet and on unsupported Macs running Lion
