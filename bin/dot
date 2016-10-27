@@ -7,7 +7,9 @@
 export ZSH=$HOME/.dotfiles
 
 # Update dotfiles
-git -C ${DOTFILES} pull
+if [ "$(git rev-parse --abbrev-ref HEAD)" = "master" ]; then
+  git -C "${DOTFILES}" pull
+fi
 
 # Set OS X defaults
 "$DOTFILES/osx/set-defaults.sh"
