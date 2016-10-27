@@ -4,6 +4,7 @@
       "exception-reporting"
       "fast-eslint"
     ]
+    telemetryConsent: "limited"
   editor:
     invisibles: {}
     showIndentGuide: true
