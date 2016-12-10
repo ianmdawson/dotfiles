@@ -6,8 +6,14 @@
 # to make sure you're on the latest and greatest.
 export ZSH=$HOME/.dotfiles
 
+if [ -z "${DOTFILES}" ]; then
+  echo "\$DOTFILES undefined, either you haven't run scripts/bootstrap yet, or \
+something else went wrong"
+  exit 1
+fi
+
 # Update dotfiles
-if [ "$(git rev-parse --abbrev-ref HEAD)" = "master" ]; then
+if [ "$(git -C "${DOTFILES}" rev-parse --abbrev-ref HEAD)" = "master" ]; then
   git -C "${DOTFILES}" pull
 fi
 
