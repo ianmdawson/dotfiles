@@ -16,5 +16,3 @@ alias gac='git add -A && git commit -m'
 alias openWorkspace='open *.xcworkspace'
 
 alias permissions="stat -f '%A %a %N'"
-# these are already in the zsh theme
-# alias gl='git pull --prune'
