@@ -12,7 +12,9 @@ alias gca='git commit -a'
 alias gcb='git copy-branch-name'
 alias gs='git status -sb' # upgrade your git if -sb breaks for you. it's fun.
 alias gac='git add -A && git commit -m'
+
 alias openWorkspace='open *.xcworkspace'
 
+alias permissions="stat -f '%A %a %N'"
 # these are already in the zsh theme
 # alias gl='git pull --prune'
