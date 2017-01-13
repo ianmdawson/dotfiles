@@ -1,4 +1,9 @@
 "*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "ef914ca0-8149-498d-9ea0-0821033fa1c0"
+    json:
+      indent_size: 2
   core:
     disabledPackages: [
       "exception-reporting"
@@ -6,13 +11,16 @@
     ]
     telemetryConsent: "limited"
   editor:
+    fontSize: 16
     invisibles: {}
     showIndentGuide: true
     softWrapAtPreferredLineLength: true
   "go-plus":
+    currentPanelHeight: "21.02897102897103vh"
     formatTool: "gofmt"
     goPath: "/users/idawson/code/go"
     lintOnSave: true
+    panelDisplayMode: "closed"
   gofmt:
     formatTool: "gofmt"
   "spell-check":
