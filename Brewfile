@@ -7,11 +7,6 @@ tap 'homebrew/versions'
 cask 'atom'
 cask 'iterm2'
 cask 'slack'
-# xcode package manager
-cask 'alcatraz'
-cask 'jumpcut'
-# window management
-cask 'spectacle'
 
 brew 'git'
 brew 'ack'
@@ -35,6 +30,7 @@ brew 'spark'
 brew 'unrar'
 brew 'wget'
 brew 'terminal-notifier'
+brew 'fzf'
 
 ## not right now
 # cask 'adium'
@@ -43,3 +39,6 @@ brew 'terminal-notifier'
 # cask 'firefox'
 # cask 'google-chrome'
 # cask 'vlc'
+# cask 'jumpcut'
+# # window management
+# cask 'spectacle'
