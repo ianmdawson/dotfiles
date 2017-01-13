@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+
+freeze_atom_packages () {
+  apm list --installed --bare > "${DOTFILES}/atom.symlink/packagefreeze.txt"
+}
+
+thaw_atom_packages () {
+  apm install --packages-file "${DOTFILES}/atom.symlink/packagefreeze.txt"
+}
+
+print_usage () {
+  echo " Usage 'install-atom-packages --freeze'
+--freeze        to freeze atom packages
+--install       to install atom packages"
+}
+
+if [ "$1" = "--freeze" ]; then
+  freeze_atom_packages
+elif [ "$1" = "--install" ]; then
+  thaw_atom_packages
+else
+  print_usage
+fi

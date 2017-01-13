@@ -17,6 +17,9 @@ if [ "$(git -C "${DOTFILES}" rev-parse --abbrev-ref HEAD)" = "master" ]; then
   git -C "${DOTFILES}" pull
 fi
 
+# Update oh-my-zsh
+upgrade_oh_my_zsh
+
 # Set OS X defaults
 "$DOTFILES/osx/set-defaults.sh"
 

@@ -120,5 +120,6 @@ defaults write com.apple.ActivityMonitor SortDirection -int 0
 
 # Don’t display the prompt when quitting iTerm
 defaults write com.googlecode.iterm2 PromptOnQuit -bool false
+defaults write com.googlecode.iterm2 "Prompt Before Closing 2" -bool false
 defaults write com.googlecode.iterm2 PromptOnClose -bool false
 defaults write com.googlecode.iterm2 OnlyWhenMoreTabs -bool false

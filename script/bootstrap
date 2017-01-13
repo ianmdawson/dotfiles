@@ -137,6 +137,10 @@ install_dotfiles () {
   done
 }
 
+install_atom_packages () {
+  install-atom-packages --install
+}
+
 setup_gitconfig
 install_dotfiles
 
@@ -151,6 +155,9 @@ then
     fail "error installing dependencies"
   fi
 fi
+
+# now install atom packages
+install_atom_packages
 
 echo ''
 echo '  All installed!'
