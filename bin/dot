@@ -19,7 +19,7 @@ fi
 
 # Update oh-my-zsh
 "> oh-my-zsh update"
-/bin/sh ${ZSH}/tools/upgrade.sh
+sh ${ZSH}/tools/upgrade.sh
 
 # Set OS X defaults
 "$DOTFILES/osx/set-defaults.sh"
