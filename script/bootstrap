@@ -138,6 +138,9 @@ install_dotfiles () {
 }
 
 install_atom_packages () {
+  echo 'installing atom packages, this may fail due to apm not being installed?
+If this fails, install apm and run:
+install-atom-packages --install'
   install-atom-packages --install
 }
 
