@@ -18,8 +18,8 @@ if [ "$(git -C "${DOTFILES}" rev-parse --abbrev-ref HEAD)" = "master" ]; then
 fi
 
 # Update oh-my-zsh
-"> oh-my-zsh update"
-sh ${ZSH}/tools/upgrade.sh
+echo "> oh-my-zsh update"
+sh "${ZSH}/tools/upgrade.sh"
 
 # Set OS X defaults
 "$DOTFILES/osx/set-defaults.sh"
