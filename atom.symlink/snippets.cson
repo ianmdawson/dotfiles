@@ -1,0 +1,33 @@
+'.js':
+  'it test block':
+    'prefix': 'it'
+    'body': """
+      it('${1:does this thing}', () => {
+        $2
+      });
+    """
+
+  'describe test block':
+    'prefix': 'describe'
+    'body': """
+      describe('${1:the thing(s) we are testing}', () => {
+        ${2:your test here}
+      });
+    """
+
+  'before each':
+    'prefix': 'before'
+    'body': """
+      beforeEach(() => {
+        ${1}
+      });
+    """
+
+  'new react test':
+    'prefix': 'reacttest'
+    'body': """
+    'use strict';
+
+import React from 'react';
+import { mount } from 'enzyme';
+    """
