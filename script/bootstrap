@@ -153,6 +153,7 @@ then
   info "installing dependencies"
   if source bin/dot 2>&1 | xargs -I{} printf '%s \r' {}
   then
+    # TODO: if fzf keybindings aren't installed yet, install them
     success "dependencies installed"
   else
     fail "error installing dependencies"
