@@ -71,7 +71,7 @@ link_file () {
 
       else
 
-        user "File already exists: $dst ($(basename "$src")), what do you want to do?\n\
+        user "File already exists: $dst ($(basename "$src")), what do you want to do?\n \
         [s]kip, [S]kip all, [o]verwrite, [O]verwrite all, [b]ackup, [B]ackup all?"
         read -n 1 action
 
@@ -153,8 +153,8 @@ then
   info "installing dependencies"
   if source bin/dot 2>&1 | xargs -I{} printf '%s \r' {}
   then
-    # TODO: if fzf keybindings aren't installed yet, install them
     success "dependencies installed"
+    # TODO: if fzf keybindings aren't installed yet, install them
   else
     fail "error installing dependencies"
   fi

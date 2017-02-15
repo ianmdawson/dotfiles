@@ -12,7 +12,7 @@ something else went wrong"
   exit 1
 fi
 
-# Update dotfiles
+# Update dotfiles, only on master branch for development purposes
 if [ "$(git -C "${DOTFILES}" rev-parse --abbrev-ref HEAD)" = "master" ]; then
   git -C "${DOTFILES}" pull
 fi
