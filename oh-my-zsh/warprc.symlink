@@ -1,3 +1,7 @@
 git:~/git
 dot:~/.dotfiles
 gosrc:~/code/go/src/github.com
+api:~/git/shyp_api
+cli:~/code/go/src/github.com/Shyp/cli
+www:~/git/shyp.com
+go:~/code/go/src/github.com/Shyp
