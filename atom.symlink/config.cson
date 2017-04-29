@@ -15,13 +15,17 @@
     showIndentGuide: true
     softWrapAtPreferredLineLength: true
   "go-plus":
-    currentPanelHeight: "21.02897102897103vh"
+    currentPanelHeight: "14.599634846113718vh"
     formatTool: "gofmt"
     goPath: "/users/idawson/code/go"
     lintOnSave: true
     panelDisplayMode: "closed"
+    test: {}
   gofmt:
     formatTool: "gofmt"
+  linter:
+    lintOnChange: false
+  "linter-ui-default": {}
   "spell-check":
     grammars: [
       "text.plain"
