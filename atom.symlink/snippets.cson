@@ -26,10 +26,18 @@
   'new react test':
     'prefix': 'reacttest'
     'body': """
-    'use strict';
+      'use strict';
 
-import React from 'react';
-import { mount } from 'enzyme';
+      import React from 'react';
+      import { mount } from 'enzyme';
+    """
+
+  'context test block':
+    'prefix': 'co'
+    'body': """
+      context('${1:someContext}', () => {
+
+      });
     """
 
 '.coffee':
@@ -37,5 +45,12 @@ import { mount } from 'enzyme';
     'prefix': 'co'
     'body': """
       context '${1:someContext}', ->
+
+    """
+
+  'describe test block':
+    'prefix': 'de'
+    'body': """
+      context '${1:someDescription}', ->
 
     """

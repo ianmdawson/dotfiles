@@ -8,9 +8,11 @@
     disabledPackages: [
       "exception-reporting"
       "fast-eslint"
+      "autoclose-html"
     ]
     telemetryConsent: "limited"
   editor:
+    fontSize: 15
     invisibles: {}
     showIndentGuide: true
     softWrapAtPreferredLineLength: true
