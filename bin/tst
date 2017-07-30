@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+print_usage () {
+  echo "Usage 'tf' -- enters into fzf, runs tt <searched for file> then adds that command to zsh history"
+}
+
+run_fzf_then_test() {
+  local filepath
+  filepath=$(fzf -q 'test/')
+  if [[ -z filepath ]]; then
+    echo "filepath undefined $filepath"
+    exit 1
+  fi
+
+  echo "tt $filepath"
+  tt "$filepath"
+  zsh -c "print -s 'tt $filepath'"
+  echo "tt $filepath"
+}
+
+run_fzf_then_test
