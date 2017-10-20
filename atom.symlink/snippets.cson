@@ -49,8 +49,15 @@
     """
 
   'describe test block':
-    'prefix': 'de'
+    'prefix': 'desc'
     'body': """
-      context '${1:someDescription}', ->
+      describe '${1:someDescription}', ->
+
+    """
+
+  'it test block':
+    'prefix': 'ii'
+    'body': """
+      it '${1:doesSomething}', ->
 
     """
