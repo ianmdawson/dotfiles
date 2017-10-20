@@ -4,7 +4,7 @@ print_usage () {
   echo "Usage 'tf' -- enters into fzf, runs tt <searched for file> then adds that command to zsh history"
 }
 
-run_fzf_then_test() {
+run_fzf_then_copy_command() {
   local filepath
   filepath=$(fzf -q 'test/')
   if [[ -z filepath ]]; then
@@ -12,10 +12,10 @@ run_fzf_then_test() {
     exit 1
   fi
 
-  echo "tt $filepath"
+  echo "copying test command to clipboard: tt $filepath"
+  printf "tt $filepath" | pbcopy
   tt "$filepath"
-  zsh -c "print -s 'tt $filepath'"
-  echo "tt $filepath"
+  echo "ran: tt $filepath"
 }
 
-run_fzf_then_test
+run_fzf_then_copy_command
