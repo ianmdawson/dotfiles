@@ -4,7 +4,6 @@
 .DS_Store?
 scratch
 .Trashes
-Icon?
 Thumbs.db
 *.egg-info
 .sass-cache
