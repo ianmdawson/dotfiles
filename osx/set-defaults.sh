@@ -20,9 +20,9 @@ defaults write com.apple.Finder FXPreferredViewStyle Nlsv
 # Show the ~/Library folder.
 chflags nohidden ~/Library
 
-# Set a really fastish key repeat. Smaller numbers are better, but 0 turns off
-# key repeat in macOS sierra, so you can't make it ultra fast
-defaults write NSGlobalDomain KeyRepeat -int 1
+# Set a really fastish key repeat. Smaller numbers are better.
+defaults write NSGlobalDomain KeyRepeat 0.5
+defaults write NSGlobalDomain InitialKeyRepeat -int 10
 
 # Set the Finder prefs for showing a few different volumes on the Desktop.
 defaults write com.apple.finder ShowExternalHardDrivesOnDesktop -bool true
