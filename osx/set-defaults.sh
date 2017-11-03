@@ -22,7 +22,7 @@ chflags nohidden ~/Library
 
 # Set a really fastish key repeat. Smaller numbers are better.
 # may need to simply be: defaults write -g KeyRepeat 0.5
-defaults write NSGlobalDomain KeyRepeat 0.5
+defaults write NSGlobalDomain KeyRepeat 1
 defaults write NSGlobalDomain InitialKeyRepeat -int 10
 
 # Set the Finder prefs for showing a few different volumes on the Desktop.
