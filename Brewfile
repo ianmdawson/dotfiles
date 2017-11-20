@@ -6,7 +6,7 @@ tap 'homebrew/versions'
 
 cask 'atom'
 cask 'iterm2'
-cask 'slack'
+# cask 'slack'
 
 brew 'git'
 brew 'ack'
