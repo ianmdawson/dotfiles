@@ -1,6 +1,6 @@
 '.js':
   'it test block':
-    'prefix': 'it'
+    'prefix': 'ii'
     'body': """
       it('${1:does this thing}', () => {
         $2
@@ -36,6 +36,14 @@
     'prefix': 'co'
     'body': """
       context('${1:someContext}', () => {
+
+      });
+    """
+
+  'then promise block':
+    'prefix': 'then'
+    'body': """
+      .then((${1:returnValueFromLastPromise}) => {
 
       });
     """
