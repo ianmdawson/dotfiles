@@ -10,8 +10,5 @@ cd "$(dirname $0)"/..
 echo "› brew bundle"
 brew bundle
 
-# Install a node version
-nvm install 6.11.5
-
 # find the installers and run them iteratively
 find . -name install.sh | while read installer ; do sh -c "${installer}" ; done

@@ -46,3 +46,5 @@ done
 unset config_files
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+export PATH="/usr/local/opt/postgresql@9.4/bin:$PATH"

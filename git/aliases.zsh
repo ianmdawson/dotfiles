@@ -13,6 +13,6 @@ alias gcb='git copy-branch-name'
 alias gs='git status -sb' # upgrade your git if -sb breaks for you. it's fun.
 alias gac='git add -A && git commit -m'
 
-alias openWorkspace='open *.xcworkspace'
+alias deletesquashedbranches='git checkout -q develop && git for-each-ref refs/heads/ "--format=%(refname:short)" | while read branch; do mergeBase=$(git merge-base develop $branch) && [[ $(git cherry develop $(git commit-tree $(git rev-parse $branch^{tree}) -p $mergeBase -m _)) == "-"* ]] && git branch -D $branch; done'
 
 alias permissions="stat -f '%A %a %N'"
