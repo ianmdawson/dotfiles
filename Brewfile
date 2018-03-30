@@ -2,7 +2,6 @@ cask_args appdir: '/Applications'
 
 tap 'caskroom/cask'
 tap 'homebrew/bundle'
-tap 'homebrew/versions'
 
 cask 'atom'
 cask 'iterm2'
@@ -16,7 +15,6 @@ brew 'grc'
 brew 'hub'
 brew 'imagemagick'
 brew 'jp2a'
-brew 'libcaca', args: ['with-imlib2']
 brew 'libgit2'
 brew 'openssl'
 brew 'node'
