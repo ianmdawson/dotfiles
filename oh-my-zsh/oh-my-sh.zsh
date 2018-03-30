@@ -1,5 +1,5 @@
 # oh-my-zsh config
-ZSH_THEME="steeef-mod"
+ZSH_THEME="steeef"
 plugins=(git wd)
 DISABLE_UPDATE_PROMPT="true"
 DISABLE_AUTO_UPDATE="true"
