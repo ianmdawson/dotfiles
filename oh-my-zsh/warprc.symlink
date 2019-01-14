@@ -2,3 +2,4 @@ git:~/git
 dot:~/.dotfiles
 go:~/code/go/src/github.com
 circle:~/code/go/src/github.com/Shyp/go-circle
+w:~/git/webapp
