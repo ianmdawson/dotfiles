@@ -7,6 +7,8 @@ atom.symlink/packages
 atom.symlink/recovery
 atom.symlink/storage
 atom.symlink/themes
+atom.symlink/.atom-socket*
+atom.symlink/package-deps-state.json
 
 git/gitconfig.local.symlink
 
