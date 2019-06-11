@@ -1,38 +1,10 @@
 "*":
-  "atom-beautify":
-    general:
-      _analyticsUserId: "ef914ca0-8149-498d-9ea0-0821033fa1c0"
-    json:
-      indent_size: 2
+  "atom-ide-ui":
+    "atom-ide-code-format":
+      formatOnSave: true
   core:
     disabledPackages: [
-      "exception-reporting"
-      "fast-eslint"
-      "autoclose-html"
     ]
     telemetryConsent: "limited"
-  editor:
-    invisibles: {}
-    showIndentGuide: true
-    softWrapAtPreferredLineLength: true
-  "go-plus":
-    currentPanelHeight: "14.599634846113718vh"
-    formatTool: "gofmt"
-    goPath: "/users/idawson/code/go"
-    lintOnSave: true
-    panelDisplayMode: "closed"
-    test: {}
-  gofmt:
-    formatTool: "gofmt"
-  linter:
-    lintOnChange: false
-  "linter-ui-default": {}
-  "spell-check":
-    grammars: [
-      "text.plain"
-      "source.gfm"
-      "text.git-commit"
-      "text.html.basic"
-    ]
   welcome:
     showOnStartup: false
