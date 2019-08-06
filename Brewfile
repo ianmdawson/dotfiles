@@ -5,7 +5,6 @@ tap 'homebrew/bundle'
 
 cask 'atom'
 cask 'iterm2'
-# cask 'slack'
 
 brew 'git'
 brew 'ack'
@@ -22,8 +21,6 @@ brew 'node'
 brew 'nave'
 brew 'readline'
 brew 'postgresql'
-# brew 'ruby-build'
-# brew 'rbenv'
 brew 'shellcheck'
 brew 'spaceman-diff'
 brew 'spark'
@@ -35,7 +32,11 @@ brew 'fzf'
 ## not right now
 # cask 'firefox'
 # cask 'google-chrome'
+# cask 'slack'
 # cask 'vlc'
 # cask 'jumpcut'
 # # window management
 # cask 'spectacle'
+
+# brew 'ruby-build'
+# brew 'rbenv'
