@@ -10,7 +10,7 @@ then
       alias colourify="$GRC -es --colour=auto"
       # alias colourifyconfigure='colourify -c `brew --prefix`/etc/configure'
       alias diff='colourify diff'
-      alias make='colourify make'
+      # alias make='colourify make'
       alias gcc='colourify gcc'
       alias g++='colourify g++'
       alias as='colourify as'
