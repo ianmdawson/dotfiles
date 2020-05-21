@@ -47,6 +47,8 @@ unset config_files
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
+export JAVA_HOME=$(/usr/libexec/java_home)
+export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES # Fix for rails/python multithreading issue in catalina
+
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
-export JAVA_HOME=$(/usr/libexec/java_home)
