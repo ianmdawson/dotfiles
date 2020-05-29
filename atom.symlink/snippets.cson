@@ -69,3 +69,12 @@
       it '${1:doesSomething}', ->
 
     """
+
+'.source.ruby':
+  'context test block':
+    'prefix': 'co'
+    'body': """
+      context "${1:someContext}" do
+
+      end
+    """
