@@ -17,3 +17,5 @@ venv
 # golang
 gin-bin
 
+# idea
+.idea
