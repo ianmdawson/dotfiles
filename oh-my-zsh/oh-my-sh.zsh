@@ -1,6 +1,6 @@
 # oh-my-zsh config
 ZSH_THEME="steeef"
-plugins=(git wd)
+plugins=(git wd docker)
 DISABLE_UPDATE_PROMPT="true"
 DISABLE_AUTO_UPDATE="true"
 ZSH_CUSTOM="${DOTFILES}/oh-my-zsh/customization"
