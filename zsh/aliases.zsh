@@ -6,7 +6,6 @@ alias pi="pod install"
 alias ddd='rm -rfd ~/Library/Developer/Xcode/DerivedData/*'
 alias gsu='git submodule update'
 alias gog="go get"
-alias qr-code="shyp qr"
 alias opn="open -a"
 alias ipadd="ifconfig | grep inet"
 
