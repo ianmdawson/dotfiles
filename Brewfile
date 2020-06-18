@@ -27,13 +27,12 @@ brew 'unrar'
 brew 'wget'
 brew 'terminal-notifier'
 brew 'fzf'
+cask 'firefox'
+cask 'google-chrome'
+cask 'vlc'
+cask 'jumpcut'
 
 ## not right now
-# cask 'firefox'
-# cask 'google-chrome'
-# cask 'slack'
-# cask 'vlc'
-# cask 'jumpcut'
 # # window management
 # cask 'spectacle'
 
