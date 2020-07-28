@@ -3,3 +3,4 @@
 # alias sd='script/destroy'
 
 alias be='bundle exec'
+alias rake='noglob rake'
