@@ -36,3 +36,5 @@
         insteadOf = "https://github.com/"
 [user]
 	name = Ian M. Dawson
+[init]
+	defaultBranch = main
