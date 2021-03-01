@@ -19,3 +19,7 @@ gin-bin
 
 # idea
 .idea
+
+# ruby
+.byebug_history
+
