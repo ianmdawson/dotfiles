@@ -10,3 +10,4 @@ alias opn="open -a"
 alias ipadd="ifconfig | grep inet"
 
 alias act="source venv/bin/activate"
+alias public_ip="dig +short myip.opendns.com @resolver1.opendns.com"
