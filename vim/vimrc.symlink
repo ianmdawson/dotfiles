@@ -25,9 +25,9 @@ set showcmd      " display incomplete commands
 set incsearch    " do incremental searching
 
 " Indentation setttings
-set tabstop=4    " set tab to 4 spaces
-set shiftwidth=4 " when indenting with '>', use 4 spaces width
-set expandtab    " On pressing tab, insert 4 spaces
+set tabstop=2    " set tab to 4 spaces
+set shiftwidth=2 " when indenting with '>', use 4 spaces width
+" set expandtab    " On pressing tab, insert 4 spaces
 
 " Don't use Ex mode, use Q for formatting
 map Q gq
@@ -51,6 +51,16 @@ if has("autocmd")
   " 'cindent' is on in C files, etc.
   " Also load indent files, to automatically do language-dependent indenting.
   filetype plugin indent on
+
+  if empty(glob('~/.vim/autoload/plug.vim'))
+    silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
+      \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+    autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+  endif
+  call plug#begin()
+		Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+		Plug 'junegunn/fzf.vim'
+  call plug#end()
 
   " Put these in an autocmd group, so that we can delete them easily.
   augroup vimrcEx
