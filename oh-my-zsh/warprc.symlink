@@ -1,6 +1,7 @@
-git:~/git
-dot:~/.dotfiles
-go:~/code/go/src/github.com
 circle:~/code/go/src/github.com/Shyp/go-circle
-w:~/git/webapp
+dot:~/.dotfiles
+git:~/git
+go:~/code/go/src/github.com
 ianmdawson:~/code/go/src/github.com/ianmdawson
+l:~/git/lister
+w:~/git/webapp
