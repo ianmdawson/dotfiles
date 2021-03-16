@@ -8,8 +8,10 @@ atom.symlink/recovery
 atom.symlink/storage
 atom.symlink/themes
 atom.symlink/.atom-socket*
+atom.symlink/config.cson
 
 git/gitconfig.local.symlink
 
 vimbackup.symlink/*
 !vimbackup.symlink/vim.md
+
