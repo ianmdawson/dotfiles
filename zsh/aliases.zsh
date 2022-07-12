@@ -11,3 +11,6 @@ alias ipadd="ifconfig | grep inet"
 
 alias act="source venv/bin/activate"
 alias public_ip="dig +short myip.opendns.com @resolver1.opendns.com"
+
+alias permissions="stat -f '%A %a %N'"
+alias term-ping="terminal-notifier -message 'ping' -sound 'default'"

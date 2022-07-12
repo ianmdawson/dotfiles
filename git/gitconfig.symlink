@@ -9,6 +9,7 @@
         wtf     = !$ZSH/bin/git-wtf
         rank-contributors = !$ZSH/bin/git-rank-contributors
         count   = !git shortlog -sn
+	please = push --force-with-lease
 [color]
         diff = auto
         status = auto
@@ -16,7 +17,7 @@
         ui = true
 [core]
         excludesfile = ~/.gitignore
-    	editor = sublime -n -w
+        # editor = sublime -n -w
 [apply]
         whitespace = nowarn
 [mergetool]
@@ -36,5 +37,6 @@
         insteadOf = "https://github.com/"
 [user]
 	name = Ian M. Dawson
+	email = ian@uprightlabs.com
 [init]
 	defaultBranch = main
