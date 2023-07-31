@@ -15,3 +15,5 @@ git/gitconfig.local.symlink
 vimbackup.symlink/*
 !vimbackup.symlink/vim.md
 
+Brewfile.lock.json
+
