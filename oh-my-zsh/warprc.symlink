@@ -4,4 +4,8 @@ git:~/git
 go:~/code/go/src/github.com
 ianmdawson:~/code/go/src/github.com/ianmdawson
 l:~/git/lister
+lacuna:~/git/lacuna
+lmp:~/git/LinkMP
+ms:~/git/marketplace-service
+price:~/git/lacuna
 w:~/git/webapp
