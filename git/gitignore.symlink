@@ -25,4 +25,7 @@ gin-bin
 
 # CLAUDE
 CLAUDE.md
+MEMORY.md
+.claude/
+.worktrees/
 
