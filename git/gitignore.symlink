@@ -23,3 +23,6 @@ gin-bin
 # ruby
 .byebug_history
 
+# CLAUDE
+CLAUDE.md
+

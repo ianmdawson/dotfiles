@@ -53,10 +53,15 @@ fi
 
 export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES # Fix for rails/python multithreading issue in Catalina
 
-# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-export PATH="$PATH:$HOME/.rvm/bin"
-
+# may need: "/opt/homebrew/opt/postgresql@15/bin:$PATH" instead, unsure
 export PATH="/usr/local/opt/postgresql@15/bin:$PATH"
 export LDFLAGS="-L/usr/local/opt/postgresql@15/lib"
 export CPPFLAGS="-I/usr/local/opt/postgresql@15/include"
 export PKG_CONFIG_PATH="/usr/local/opt/postgresql@15/lib/pkgconfig"
+
+# Allow moving back one word on OSX
+bindkey "^[[1;3C" forward-word
+bindkey "^[[1;3D" backward-word
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
