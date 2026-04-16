@@ -1,12 +1,13 @@
 # Use `hub` as our git wrapper:
 #   http://defunkt.github.com/hub/
-hub_path=$(which hub)
-if (( $+commands[hub] ))
-then
-  alias git=$hub_path
-  alias check='hub compare master...develop'
-fi
+# hub_path=$(which gh)
+# if (( $+commands[gh] ))
+# then
+#  alias git=$hub_path
+#  alias check='hub compare master...develop'
+# fi
 
+alias gcompare="git branch --show-current | xargs gh browse --branch"
 alias gloga="git log --graph --pretty=format:'%Cred%h%Creset %an: %s - %Creset %C(yellow)%d%Creset %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"
 alias gph='git push origin HEAD'
 alias gca='git commit -a'
